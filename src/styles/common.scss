@@ -1,0 +1,178 @@
+//100%宽度高度
+.height-bfb{
+	height: 100%;
+}
+.width-bfb{
+	width: 100%;
+}
+// 颜色
+.color-red{
+	color: red !important;
+}
+.color-orange{
+	color: #ffa64a !important;
+}
+.color-blue{
+	color:#1890ff !important;
+}
+.color-000{
+	color: #000000 !important;
+}
+.color-333{
+	color: #333333 !important;
+}
+.color-666{
+	color: #666666 !important;
+}
+.color-888{
+	color: #888888 !important;
+}
+.color-999{
+	color: #999999;
+}
+.color-aaa{
+	color: #aaa !important;
+}
+.color-bbb{
+	color: #bbb !important;
+}
+//背景颜色
+.bg-white{
+	background: #FFFFFF;
+}
+//字号
+.font-s-12{
+	font-size: 12px !important;
+}
+.font-s-13{
+	font-size: 13px !important;
+}
+.font-s-14{
+	font-size: 14px !important;
+}
+.font-s-15{
+	font-size: 15px !important;
+}
+.font-s-16{
+	font-size: 16px !important;
+}
+.font-s-17{
+	font-size:17px !important;
+}
+.font-s-18{
+	font-size:18px !important;
+}
+.fw-b{
+	font-weight: bold;
+}
+//边距
+.mar-t-5{
+	margin-top: 5px !important;
+}
+.mar-t-10{
+	margin-top:10px !important;
+}
+.mar-t-15{
+	margin-top: 15px !important;
+}
+.mar-t-20{
+	margin-top: 20px !important;
+}
+.mar-r-5{
+	margin-right:5px !important;
+}
+.mar-r-10{
+	margin-right:10px !important;
+}
+.mar-r-15{
+	margin-right:15px !important;
+}
+.mar-r-20{
+	margin-right:20px !important;
+}
+.mar-l-5{
+	margin-left: 5px !important;
+}
+.mar-l-10{
+	margin-left: 10px !important;
+}
+.mar-l-15{
+	margin-left: 15px !important;
+}
+.mar-l-20{
+	margin-left: 20px !important;
+}
+.pad-0{
+	padding:0px !important;
+}
+.pad-lr-20{
+	padding:0 20px !important;
+}
+.pad-20{
+	padding:20px !important;
+}
+//浮动
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.clear-both{
+	clear: both;
+}
+.flex-1{
+	flex: 1;
+}
+.dis-flex{
+	display: flex;
+}
+.flex-align-center{
+	display: flex;
+	align-items: center;
+}
+.flex-between-center{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ver-mid{
+	vertical-align: middle;
+}
+.text-c{
+	text-align: center;
+}
+.text-l{
+	text-align: left;
+}
+.text-r{
+	text-align: right;
+}
+.text-through{//删除线
+	text-decoration:line-through;
+}
+.pos-rel{
+	position: relative!important;
+}
+//文本溢出
+.text-over{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.text-over-clamp-2{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+}
+.text-over-clamp-3{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+}
+//鼠标指示
+.cur-poin{
+	cursor: pointer;
+}

@@ -1,0 +1,73 @@
+// cover some element-ui styles
+
+//el-menu
+.el-menu-item i{
+	color: $subMenuActiveText!important;
+	margin-top: -4px;
+}
+.el-menu-item.is-active i{
+	color:$menuActiveText!important;
+}
+
+//el-table
+.el-table{
+	thead {
+		color: #444444!important;
+	}
+	.el-button.el-button--text{
+		padding: 0;
+	}
+	.el-image{
+		height: 100%;
+	}
+} 
+//el-button
+.el-button{
+	a{
+		color: inherit;
+	}
+}
+.el-button--text.btn-remove{
+	color:#f56c6c;
+	&:hover,&:focus {
+		color: #ec7474;
+	}
+}
+
+//el-dropdown-menu
+.el-dropdown-menu{
+	overflow: visible;
+	text-align: center;
+}
+
+//el-drawer
+.el-drawer:focus,.el-drawer__header span:focus,.el-drawer__close-btn:focus{
+	outline: none;
+}
+.el-drawer{
+	overflow: auto;
+	.el-drawer__header{
+		margin-bottom:0px;
+    	padding:20px;
+		span{
+			color: #409EFF;
+			font-weight: bold;
+			font-size: 16px;
+		}
+	}
+}
+
+//.el-date-editor
+.el-date-editor .el-range-separator{
+	width: 27px;
+}
+
+//el-input.is-disabled
+.el-input.is-disabled .el-input__inner {
+    color: #666;
+}
+
+//el-tooltip
+.el-tooltip__popper.is-dark.tooltip-top-start{
+	max-width: 500px;
+}
